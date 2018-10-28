@@ -3,6 +3,7 @@ import './App.css';
 import NewDoodle from './components/NewDoodle';
 
 class App extends Component {
+  
   render() {
     return (
       <div className="App">
