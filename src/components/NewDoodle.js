@@ -16,8 +16,8 @@ class NewDoodle extends Component {
   doodle() {
     const canvas = document.querySelector('.noodle');
     const ctx = canvas.getContext('2d');
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = canvas.clientWidth;
+    canvas.height = canvas.clientHeight;
     ctx.strokeStyle = '#000000';
     ctx.lineJoin = 'round';
     ctx.lineCap = 'round';
@@ -29,6 +29,7 @@ class NewDoodle extends Component {
     let hue = 0;
     function draw(e) {
       if (!isDrawing) return;
+      // console.log(e);
       ctx.strokeStyle = `hsl(${hue}, 100%, 50%)`;
       ctx.beginPath();
       ctx.moveTo(lastX, lastY);
