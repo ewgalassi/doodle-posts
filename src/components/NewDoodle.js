@@ -73,8 +73,9 @@ class NewDoodle extends Component {
 
   render() {
     return (
-      <div>
+      <div className="newDoodle content">
         <canvas className="noodle"></canvas>
+        <br></br>
         <button>Save</button>
         <button>Delete</button>
       </div>
