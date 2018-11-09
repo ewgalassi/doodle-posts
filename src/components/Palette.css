@@ -5,3 +5,45 @@
     position: relative;
     float: left;
 }
+
+.shades {
+    width: 20px;
+    height: 280px;
+    float: left;
+    background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
+}
+
+.colors1 {
+    width: 20px;
+    height: 280px;
+    float: left;
+    background: linear-gradient(to bottom, #3700ff 0%, #ff0000 100%);
+}
+
+.colors2 {
+    width: 20px;
+    height: 280px;
+    float: left;
+    background: linear-gradient(to bottom, #00fff2 0%, #3700ff 100%);
+}
+
+.colors3 {
+    width: 20px;
+    height: 280px;
+    float: left;
+    background: linear-gradient(to bottom, #bbff00 0%, #00fff2 100%);
+}
+
+.colors4 {
+    width: 20px;
+    height: 280px;
+    float: left;
+    background: linear-gradient(to bottom, #ff0000 0%, #bbff00 100%);
+}
+
+.selected {
+    width: 100px;
+    height: 20px;
+    float: right;
+    border-top: 1px solid black;
+}
