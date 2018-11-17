@@ -4,6 +4,13 @@ import NewDoodle from './components/NewDoodle';
 import Palette from './components/Palette';
 
 class App extends Component {
+  state = {
+    color: "",
+    lastName: "",
+    password: ""
+  };
+
+
 
   render() {
     return (

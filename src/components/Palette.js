@@ -3,9 +3,13 @@ import "./Palette.css";
 
 class Palette extends Component {
 
+  handleClick = (e) => {
+    console.log(e.target.style.backgroundColor);
+  };
+
   render() {
     return (
-      <div className="palette content">
+      <div className="palette content" onClick={this.handleClick}>
         <div className="shades"></div>
         <div className="colors1"></div>
         <div className="colors2"></div>
